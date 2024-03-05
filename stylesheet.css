@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 113px;
+    cursor: pointer;
+}
+.logo {
+    background-image: url(./assets/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 113px;
+}
+
+.border {
+    border: 1.3px solid transparent;
+    border-radius: 2px;
+}
+.border:hover {
+    border: 1.3px solid white;
+    border-radius: 2px;
+}
+
+.nav-add {
+    cursor: pointer;
+}
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+#nav-add-p {
+    color: #CCCCCC;
+    font-size: 0.75rem;
+    margin-left: 18px;
+}
+#nav-add-ind {
+   font-size: 0.875rem;
+   font-weight: 600;
+   padding-left: 5px;
+   
+}
+/* SEARCH */
+.nav-search {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+.nav-search:hover {
+    border: 2px solid orange;
+    border-radius: 6px;
+}
+.nav-select {
+    color: #0f1111;
+    height: 40px;
+    width: 51px;
+    background-color: #E6E6E6;
+    border: none;
+    border-radius: 4px 0 0 4px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-input {
+    height: 40px;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon {
+    height: 40px;
+    width: 2.813rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 4px 4px 0;
+    background-color: #F3A847;
+    opacity: 0.9;
+    cursor: pointer;
+}
+.search-icon:hover {
+    opacity: 1;
+}
+.search-icon i {
+    color: #0f1111;
+}
+
+/* sign section */
+/* .nav-signin {
+    height: 3.75rem;
+} */
+.nav-signin {
+    cursor: pointer;
+}
+.nav-return {
+    cursor: pointer;
+}
+#hello{
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+#account {
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+ /* cart    */
+.nav-cart i {
+    font-size: 1.8rem;
+    cursor: pointer;
+ }
+.nav-cart {
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+/* PANEL */
+.panel {
+    display: flex;
+    height: 40px;
+    background-color: #232F3E;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-all i {
+     font-size: 1.2rem;
+     margin-right: 5px;
+}
+.panel-all {
+    font-size: 0.875rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.panel-opt {
+    width: 90%;  
+}
+.panel-opt p {
+    display: inline;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* MAIN-PAGE */
+.hero {
+    background-image: url(./assets/hero_image.jpg);
+    height: 350PX;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    height: 2rem;
+    width: 95%;
+    background-color: #F5F6F6;
+    color: #0F1111;
+    font-size: 1.063rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.hero-msg a {
+    color: #007185;
+    text-decoration: none;
+}
+.hero-msg a:hover {
+    color: #C7511F;
+    text-decoration: underline;
+}
+/* SHOP-SECTION */
+.shop-section {
+    background-color: #E3E6E6;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.container {
+    width: 315px;
+    height: 380px;
+    color: #1e2424;
+    background-color: #ffffff;
+    padding-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.container h2 {
+    color: #0F1111;
+    margin-top: 10px;
+    
+}
+
+.container a {
+    color: #007185;
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: none;  
+}
+.container a:hover {
+    color: #C7511F;
+}
+
+.box-image {
+    height: 80%;
+    width: 85%;
+    /* background-image: url(./assets/box1_image.jpg); */
+    background-size: cover;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box1 {
+    background-image: url(./assets/box1_image.jpg);
+}
+.box2 {
+    background-image: url(./assets/box2_image.jpg);
+}
+.box3 {
+    background-image: url(./assets/box3_image.jpg);
+}
+.box4 {
+    background-image: url(./assets/box4_.jpg);
+}
+.box5 {
+    background-image: url(./assets/box5_image.jpg);
+}
+.box6 {
+    background-image: url(./assets/box6_image.jpg);
+}
+.box7 {
+    background-image: url(./assets/box7_image.jpg);
+}
+.box8 {
+    background-image: url(./assets/box8_image.jpg);
+}
+
+/* FOOTER */
+
+.footer-panel {
+    height: 50px;
+    color: #ffffff;
+    background-color: #37475A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-bottom {
+    height: 350px;
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-list {
+    height: 350px;
+    width: 200px;
+    color: #F5F6F6;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+.footer-list  ul p {
+    font-size: 16px;
+    font-weight: 700;
+    display: block;
+}
+.footer-list  ul a{
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+    color: #dddddd;
+    font-size: 0.85rem;
+}
+.footer-list  ul a:hover {
+    text-decoration: underline;
+}
+
+.footer-opt {
+    height: 70px;
+    background-color: #232F3E;
+    border-top: 0.4px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-opt-logo {
+    width: 100px;
+    height: 50px;
+    background-size: cover;
+    background-image: url(./assets/amazon_logo.png);
+    margin-right: 80px;
+    cursor: pointer;
+}
+
+#but {
+    height: 2rem;
+    background-color: #232F3E;
+    border: 0.5px solid white;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.condition {
+    height: 75px;
+    background-color: #131A22;
+}
+
+.condition {
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 25px;
+}
+
+.condition a {
+    text-decoration: none;
+}
+.condition a:hover {
+    text-decoration: underline;
+}
